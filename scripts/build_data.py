@@ -152,6 +152,17 @@ out center tags;
         if not match:
             continue
         label, family = match
+        access = (tags.get("access") or "").lower()
+        if access in {"private", "no"}:
+            continue
+        if label == "Piscine":
+            # Les bassins résidentiels sont très nombreux dans OSM. Une piscine n'est
+            # retenue que si elle est nommée et documentée comme équipement accessible
+            # au public, aux clients/adhérents ou gérée par un opérateur identifiable.
+            has_public_signal = access in {"yes", "public", "permissive", "customers", "members"}
+            has_operator_signal = any(tags.get(key) for key in ("operator", "website", "contact:website", "fee"))
+            if not tags.get("name") or not (has_public_signal or has_operator_signal):
+                continue
         name = tags.get("name") or ("Fontaine d’eau potable" if label == "Point d’eau" else label)
         signature = (round(center["lat"], 5), round(center["lon"], 5), label)
         if signature in seen:

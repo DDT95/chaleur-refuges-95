@@ -15,7 +15,8 @@ Version préparée le **16 août 2026**.
 - agrégation sur une grille d’environ 350 à 400 mètres pour fluidifier la heatmap ;
 - deux intensités distinctes construites avec les classes d’aléa de jour et de nuit ;
 - profils communaux calculés par appartenance du centroïde à la commune ;
-- ressources OpenStreetMap filtrées par emprise départementale et réparties en trois familles.
+- ressources OpenStreetMap filtrées par emprise départementale et réparties en trois familles ;
+- exclusion de tout équipement déclaré `access=private` ou `access=no` ; une piscine doit être nommée et comporter un signal d’accès public, clients/adhérents ou un opérateur identifiable.
 
 ## Limites d’usage
 
