@@ -1,0 +1,1649 @@
+{
+  "95002": {
+    "name": "Ableiges",
+    "day": -0.07,
+    "night": -0.49,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.32,
+    "cells": 95
+  },
+  "95008": {
+    "name": "Aincourt",
+    "day": -0.19,
+    "night": -0.39,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.3,
+    "cells": 118
+  },
+  "95011": {
+    "name": "Ambleville",
+    "day": -0.28,
+    "night": -0.46,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.2,
+    "cells": 140
+  },
+  "95012": {
+    "name": "Amenucourt",
+    "day": -0.46,
+    "night": -0.4,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.77,
+    "cells": 133
+  },
+  "95014": {
+    "name": "Andilly",
+    "day": 0.22,
+    "night": 0.22,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.54,
+    "cells": 112
+  },
+  "95018": {
+    "name": "Argenteuil",
+    "day": 1.04,
+    "night": 1.29,
+    "hot_day_pct": 0.2,
+    "hot_night_pct": 7.8,
+    "vulnerability": 4.73,
+    "cells": 845
+  },
+  "95019": {
+    "name": "Arnouville",
+    "day": 1.06,
+    "night": -0.49,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 3.06,
+    "cells": 175
+  },
+  "95023": {
+    "name": "Arronville",
+    "day": -0.33,
+    "night": -0.32,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.14,
+    "cells": 245
+  },
+  "95024": {
+    "name": "Arthies",
+    "day": 0.22,
+    "night": -0.75,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.26,
+    "cells": 65
+  },
+  "95026": {
+    "name": "Asnières-sur-Oise",
+    "day": -0.14,
+    "night": -0.47,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.9,
+    "cells": 262
+  },
+  "95028": {
+    "name": "Attainville",
+    "day": 0.63,
+    "night": -0.61,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.47,
+    "cells": 107
+  },
+  "95039": {
+    "name": "Auvers-sur-Oise",
+    "day": 0.04,
+    "night": -0.58,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.18,
+    "cells": 269
+  },
+  "95040": {
+    "name": "Avernes",
+    "day": 0.04,
+    "night": -0.45,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.21,
+    "cells": 164
+  },
+  "95042": {
+    "name": "Baillet-en-France",
+    "day": 0.45,
+    "night": -0.65,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.89,
+    "cells": 117
+  },
+  "95046": {
+    "name": "Banthelu",
+    "day": -0.04,
+    "night": -0.5,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.81,
+    "cells": 48
+  },
+  "95051": {
+    "name": "Beauchamp",
+    "day": 0.68,
+    "night": -0.48,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.88,
+    "cells": 146
+  },
+  "95052": {
+    "name": "Beaumont-sur-Oise",
+    "day": 0.57,
+    "night": -0.38,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 4.0,
+    "vulnerability": 2.5,
+    "cells": 173
+  },
+  "95054": {
+    "name": "Le Bellay-en-Vexin",
+    "day": 0.86,
+    "night": -1.0,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.0,
+    "cells": 14
+  },
+  "95055": {
+    "name": "Bellefontaine",
+    "day": -0.41,
+    "night": -0.35,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.31,
+    "cells": 108
+  },
+  "95056": {
+    "name": "Belloy-en-France",
+    "day": 0.22,
+    "night": -0.67,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.36,
+    "cells": 139
+  },
+  "95058": {
+    "name": "Bernes-sur-Oise",
+    "day": 0.48,
+    "night": -0.72,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.64,
+    "cells": 124
+  },
+  "95059": {
+    "name": "Berville",
+    "day": -0.24,
+    "night": -0.44,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.26,
+    "cells": 118
+  },
+  "95060": {
+    "name": "Bessancourt",
+    "day": 0.33,
+    "night": -0.48,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.46,
+    "cells": 195
+  },
+  "95061": {
+    "name": "Béthemont-la-Forêt",
+    "day": -0.46,
+    "night": -0.56,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.54,
+    "cells": 63
+  },
+  "95063": {
+    "name": "Bezons",
+    "day": 1.19,
+    "night": 1.51,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 7.1,
+    "vulnerability": 5.32,
+    "cells": 238
+  },
+  "95074": {
+    "name": "Boisemont",
+    "day": -0.23,
+    "night": -0.41,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.93,
+    "cells": 56
+  },
+  "95078": {
+    "name": "Boissy-l'Aillerie",
+    "day": -0.11,
+    "night": -0.36,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.8,
+    "vulnerability": 2.06,
+    "cells": 132
+  },
+  "95088": {
+    "name": "Bonneuil-en-France",
+    "day": 1.13,
+    "night": -0.26,
+    "hot_day_pct": 0.8,
+    "hot_night_pct": 3.2,
+    "vulnerability": 2.6,
+    "cells": 126
+  },
+  "95091": {
+    "name": "Bouffémont",
+    "day": 0.5,
+    "night": -0.47,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.26,
+    "cells": 107
+  },
+  "95094": {
+    "name": "Bouqueval",
+    "day": 0.12,
+    "night": -0.4,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.25,
+    "cells": 40
+  },
+  "95101": {
+    "name": "Bray-et-Lû",
+    "day": 0.29,
+    "night": -0.59,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.46,
+    "cells": 87
+  },
+  "95102": {
+    "name": "Bréançon",
+    "day": 0.08,
+    "night": -0.52,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.18,
+    "cells": 96
+  },
+  "95110": {
+    "name": "Brignancourt",
+    "day": -0.23,
+    "night": -0.28,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.03,
+    "cells": 61
+  },
+  "95116": {
+    "name": "Bruyères-sur-Oise",
+    "day": 0.74,
+    "night": -0.5,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.7,
+    "vulnerability": 2.37,
+    "cells": 139
+  },
+  "95119": {
+    "name": "Buhy",
+    "day": 0.27,
+    "night": -0.53,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.41,
+    "cells": 64
+  },
+  "95120": {
+    "name": "Butry-sur-Oise",
+    "day": 0.17,
+    "night": -0.52,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.19,
+    "cells": 84
+  },
+  "95127": {
+    "name": "Cergy",
+    "day": 0.61,
+    "night": -0.19,
+    "hot_day_pct": 0.4,
+    "hot_night_pct": 1.7,
+    "vulnerability": 2.54,
+    "cells": 723
+  },
+  "95134": {
+    "name": "Champagne-sur-Oise",
+    "day": -0.02,
+    "night": -0.64,
+    "hot_day_pct": 0.4,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.9,
+    "cells": 225
+  },
+  "95139": {
+    "name": "La Chapelle-en-Vexin",
+    "day": 0.31,
+    "night": -0.33,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.26,
+    "cells": 39
+  },
+  "95141": {
+    "name": "Charmont",
+    "day": -0.11,
+    "night": -0.05,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.37,
+    "cells": 19
+  },
+  "95142": {
+    "name": "Chars",
+    "day": 0.03,
+    "night": -0.52,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.24,
+    "cells": 217
+  },
+  "95144": {
+    "name": "Châtenay-en-France",
+    "day": -0.22,
+    "night": -0.42,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.24,
+    "cells": 45
+  },
+  "95149": {
+    "name": "Chaumontel",
+    "day": 0.27,
+    "night": -0.45,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.05,
+    "cells": 88
+  },
+  "95150": {
+    "name": "Chaussy",
+    "day": -0.23,
+    "night": -0.36,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.17,
+    "cells": 204
+  },
+  "95151": {
+    "name": "Chauvry",
+    "day": -0.45,
+    "night": -0.41,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.73,
+    "cells": 44
+  },
+  "95154": {
+    "name": "Chennevières-lès-Louvres",
+    "day": 0.54,
+    "night": -0.42,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.42,
+    "cells": 50
+  },
+  "95157": {
+    "name": "Chérence",
+    "day": -0.07,
+    "night": -0.49,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.83,
+    "cells": 71
+  },
+  "95166": {
+    "name": "Cléry-en-Vexin",
+    "day": 0.32,
+    "night": -0.76,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.83,
+    "cells": 41
+  },
+  "95169": {
+    "name": "Commeny",
+    "day": 0.19,
+    "night": -0.88,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.28,
+    "cells": 32
+  },
+  "95170": {
+    "name": "Condécourt",
+    "day": -0.26,
+    "night": -0.4,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.2,
+    "cells": 103
+  },
+  "95176": {
+    "name": "Cormeilles-en-Parisis",
+    "day": 0.69,
+    "night": 0.78,
+    "hot_day_pct": 0.3,
+    "hot_night_pct": 2.5,
+    "vulnerability": 3.75,
+    "cells": 359
+  },
+  "95177": {
+    "name": "Cormeilles-en-Vexin",
+    "day": 0.35,
+    "night": -0.51,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.44,
+    "cells": 138
+  },
+  "95181": {
+    "name": "Courcelles-sur-Viosne",
+    "day": -0.35,
+    "night": -0.59,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.76,
+    "cells": 34
+  },
+  "95183": {
+    "name": "Courdimanche",
+    "day": 0.43,
+    "night": -0.52,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.39,
+    "cells": 161
+  },
+  "95197": {
+    "name": "Deuil-la-Barre",
+    "day": 0.99,
+    "night": 0.98,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 2.2,
+    "vulnerability": 4.48,
+    "cells": 225
+  },
+  "95199": {
+    "name": "Domont",
+    "day": 0.45,
+    "night": -0.42,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.49,
+    "cells": 280
+  },
+  "95203": {
+    "name": "Eaubonne",
+    "day": 0.92,
+    "night": 1.07,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 1.7,
+    "vulnerability": 4.2,
+    "cells": 291
+  },
+  "95205": {
+    "name": "Écouen",
+    "day": 0.32,
+    "night": -0.58,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.13,
+    "cells": 196
+  },
+  "95210": {
+    "name": "Enghien-les-Bains",
+    "day": 1.1,
+    "night": 1.7,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 16.2,
+    "vulnerability": 4.97,
+    "cells": 105
+  },
+  "95211": {
+    "name": "Ennery",
+    "day": 0.33,
+    "night": -0.5,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.7,
+    "vulnerability": 2.2,
+    "cells": 153
+  },
+  "95212": {
+    "name": "Épiais-lès-Louvres",
+    "day": 0.95,
+    "night": -0.81,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.19,
+    "cells": 43
+  },
+  "95213": {
+    "name": "Épiais-Rhus",
+    "day": -0.11,
+    "night": -0.38,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.23,
+    "cells": 137
+  },
+  "95214": {
+    "name": "Épinay-Champlâtreux",
+    "day": -0.32,
+    "night": -0.54,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.19,
+    "cells": 37
+  },
+  "95218": {
+    "name": "Éragny-sur-Oise",
+    "day": 0.48,
+    "night": -0.37,
+    "hot_day_pct": 0.4,
+    "hot_night_pct": 0.4,
+    "vulnerability": 2.51,
+    "cells": 273
+  },
+  "95219": {
+    "name": "Ermont",
+    "day": 1.06,
+    "night": 1.22,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 3.5,
+    "vulnerability": 4.76,
+    "cells": 254
+  },
+  "95229": {
+    "name": "Ézanville",
+    "day": 0.9,
+    "night": -0.45,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.9,
+    "cells": 150
+  },
+  "95241": {
+    "name": "Fontenay-en-Parisis",
+    "day": 0.69,
+    "night": -0.69,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.8,
+    "vulnerability": 2.41,
+    "cells": 120
+  },
+  "95250": {
+    "name": "Fosses",
+    "day": 0.58,
+    "night": -0.47,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.9,
+    "vulnerability": 2.43,
+    "cells": 115
+  },
+  "95252": {
+    "name": "Franconville",
+    "day": 0.81,
+    "night": 0.81,
+    "hot_day_pct": 0.6,
+    "hot_night_pct": 4.1,
+    "vulnerability": 3.76,
+    "cells": 318
+  },
+  "95253": {
+    "name": "Frémainville",
+    "day": 0.11,
+    "night": -0.81,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.39,
+    "cells": 54
+  },
+  "95254": {
+    "name": "Frémécourt",
+    "day": 0.2,
+    "night": -0.58,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.25,
+    "cells": 71
+  },
+  "95256": {
+    "name": "Frépillon",
+    "day": 0.35,
+    "night": -0.52,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.66,
+    "cells": 102
+  },
+  "95257": {
+    "name": "La Frette-sur-Seine",
+    "day": 0.57,
+    "night": 1.06,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 3.74,
+    "cells": 82
+  },
+  "95258": {
+    "name": "Frouville",
+    "day": -0.17,
+    "night": -0.48,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.23,
+    "cells": 120
+  },
+  "95268": {
+    "name": "Garges-lès-Gonesse",
+    "day": 1.07,
+    "night": 0.38,
+    "hot_day_pct": 1.0,
+    "hot_night_pct": 2.4,
+    "vulnerability": 3.74,
+    "cells": 297
+  },
+  "95270": {
+    "name": "Genainville",
+    "day": -0.31,
+    "night": -0.4,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.0,
+    "cells": 174
+  },
+  "95271": {
+    "name": "Génicourt",
+    "day": 0.56,
+    "night": -0.59,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.27,
+    "cells": 66
+  },
+  "95277": {
+    "name": "Gonesse",
+    "day": 1.03,
+    "night": -0.21,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 2.2,
+    "vulnerability": 2.81,
+    "cells": 461
+  },
+  "95280": {
+    "name": "Goussainville",
+    "day": 0.83,
+    "night": -0.52,
+    "hot_day_pct": 0.4,
+    "hot_night_pct": 1.3,
+    "vulnerability": 3.3,
+    "cells": 475
+  },
+  "95287": {
+    "name": "Grisy-les-Plâtres",
+    "day": -0.09,
+    "night": -0.33,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.32,
+    "cells": 92
+  },
+  "95288": {
+    "name": "Groslay",
+    "day": 0.84,
+    "night": -0.03,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 1.1,
+    "vulnerability": 2.88,
+    "cells": 178
+  },
+  "95295": {
+    "name": "Guiry-en-Vexin",
+    "day": -0.47,
+    "night": -0.27,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.91,
+    "cells": 77
+  },
+  "95298": {
+    "name": "Haravilliers",
+    "day": -0.22,
+    "night": -0.36,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.14,
+    "cells": 148
+  },
+  "95301": {
+    "name": "Haute-Isle",
+    "day": -0.21,
+    "night": -0.79,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.66,
+    "cells": 56
+  },
+  "95303": {
+    "name": "Le Heaulme",
+    "day": -0.2,
+    "night": -0.6,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.68,
+    "cells": 40
+  },
+  "95304": {
+    "name": "Hédouville",
+    "day": -0.19,
+    "night": -0.46,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.16,
+    "cells": 67
+  },
+  "95306": {
+    "name": "Herblay-sur-Seine",
+    "day": 0.69,
+    "night": -0.25,
+    "hot_day_pct": 0.4,
+    "hot_night_pct": 2.2,
+    "vulnerability": 2.58,
+    "cells": 507
+  },
+  "95308": {
+    "name": "Hérouville-en-Vexin",
+    "day": 0.81,
+    "night": -0.67,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 1.8,
+    "vulnerability": 2.18,
+    "cells": 57
+  },
+  "95309": {
+    "name": "Hodent",
+    "day": -0.13,
+    "night": -0.43,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.04,
+    "cells": 77
+  },
+  "95313": {
+    "name": "L'Isle-Adam",
+    "day": 0.0,
+    "night": -0.31,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.5,
+    "vulnerability": 2.26,
+    "cells": 388
+  },
+  "95316": {
+    "name": "Jagny-sous-Bois",
+    "day": 0.03,
+    "night": -0.53,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.24,
+    "cells": 72
+  },
+  "95323": {
+    "name": "Jouy-le-Moutier",
+    "day": 0.41,
+    "night": -0.47,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.18,
+    "cells": 316
+  },
+  "95328": {
+    "name": "Labbeville",
+    "day": -0.38,
+    "night": -0.41,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.23,
+    "cells": 124
+  },
+  "95331": {
+    "name": "Lassy",
+    "day": -0.11,
+    "night": -0.37,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.28,
+    "cells": 54
+  },
+  "95341": {
+    "name": "Livilliers",
+    "day": 0.27,
+    "night": -0.54,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.98,
+    "cells": 52
+  },
+  "95348": {
+    "name": "Longuesse",
+    "day": 0.11,
+    "night": -0.49,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.1,
+    "cells": 82
+  },
+  "95351": {
+    "name": "Louvres",
+    "day": 0.67,
+    "night": -0.45,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 1.0,
+    "vulnerability": 2.67,
+    "cells": 194
+  },
+  "95352": {
+    "name": "Luzarches",
+    "day": -0.16,
+    "night": -0.35,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.8,
+    "vulnerability": 2.36,
+    "cells": 380
+  },
+  "95353": {
+    "name": "Maffliers",
+    "day": -0.17,
+    "night": -0.38,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.05,
+    "cells": 113
+  },
+  "95355": {
+    "name": "Magny-en-Vexin",
+    "day": 0.25,
+    "night": -0.38,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 2.4,
+    "vulnerability": 2.44,
+    "cells": 250
+  },
+  "95365": {
+    "name": "Mareil-en-France",
+    "day": 0.51,
+    "night": -0.71,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.13,
+    "cells": 76
+  },
+  "95369": {
+    "name": "Margency",
+    "day": 0.53,
+    "night": 0.75,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 3.44,
+    "cells": 32
+  },
+  "95370": {
+    "name": "Marines",
+    "day": 0.17,
+    "night": -0.54,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 1.0,
+    "vulnerability": 2.3,
+    "cells": 206
+  },
+  "95371": {
+    "name": "Marly-la-Ville",
+    "day": 0.59,
+    "night": -0.31,
+    "hot_day_pct": 1.4,
+    "hot_night_pct": 2.9,
+    "vulnerability": 2.54,
+    "cells": 138
+  },
+  "95379": {
+    "name": "Maudétour-en-Vexin",
+    "day": -0.22,
+    "night": -0.52,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.24,
+    "cells": 46
+  },
+  "95387": {
+    "name": "Menouville",
+    "day": -0.43,
+    "night": -0.14,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.4,
+    "cells": 35
+  },
+  "95388": {
+    "name": "Menucourt",
+    "day": 0.25,
+    "night": -0.41,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 1.2,
+    "vulnerability": 2.42,
+    "cells": 80
+  },
+  "95392": {
+    "name": "Mériel",
+    "day": -0.08,
+    "night": -0.64,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.98,
+    "cells": 132
+  },
+  "95394": {
+    "name": "Méry-sur-Oise",
+    "day": 0.2,
+    "night": -0.45,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.3,
+    "vulnerability": 2.07,
+    "cells": 304
+  },
+  "95395": {
+    "name": "Le Mesnil-Aubry",
+    "day": 0.68,
+    "night": -0.55,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 1.7,
+    "vulnerability": 2.53,
+    "cells": 60
+  },
+  "95409": {
+    "name": "Moisselles",
+    "day": 0.86,
+    "night": -0.2,
+    "hot_day_pct": 1.8,
+    "hot_night_pct": 0.0,
+    "vulnerability": 3.02,
+    "cells": 56
+  },
+  "95422": {
+    "name": "Montgeroult",
+    "day": -0.33,
+    "night": -0.36,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 1.1,
+    "vulnerability": 1.96,
+    "cells": 89
+  },
+  "95424": {
+    "name": "Montigny-lès-Cormeilles",
+    "day": 0.74,
+    "night": 0.5,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 3.6,
+    "vulnerability": 3.49,
+    "cells": 225
+  },
+  "95426": {
+    "name": "Montlignon",
+    "day": -0.16,
+    "night": -0.37,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.95,
+    "cells": 116
+  },
+  "95427": {
+    "name": "Montmagny",
+    "day": 0.78,
+    "night": 0.52,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 2.2,
+    "vulnerability": 3.6,
+    "cells": 185
+  },
+  "95428": {
+    "name": "Montmorency",
+    "day": 0.68,
+    "night": 0.34,
+    "hot_day_pct": 0.4,
+    "hot_night_pct": 3.1,
+    "vulnerability": 3.37,
+    "cells": 262
+  },
+  "95429": {
+    "name": "Montreuil-sur-Epte",
+    "day": -0.22,
+    "night": -0.37,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.3,
+    "cells": 118
+  },
+  "95430": {
+    "name": "Montsoult",
+    "day": 0.7,
+    "night": -0.37,
+    "hot_day_pct": 2.3,
+    "hot_night_pct": 1.1,
+    "vulnerability": 2.55,
+    "cells": 87
+  },
+  "95436": {
+    "name": "Mours",
+    "day": 0.35,
+    "night": -0.51,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.83,
+    "cells": 72
+  },
+  "95438": {
+    "name": "Moussy",
+    "day": -0.2,
+    "night": -0.18,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.39,
+    "cells": 44
+  },
+  "95445": {
+    "name": "Nerville-la-Forêt",
+    "day": -0.53,
+    "night": -0.24,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.9,
+    "cells": 80
+  },
+  "95446": {
+    "name": "Nesles-la-Vallée",
+    "day": -0.46,
+    "night": -0.37,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.26,
+    "cells": 238
+  },
+  "95447": {
+    "name": "Neuilly-en-Vexin",
+    "day": 0.14,
+    "night": -0.69,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.24,
+    "cells": 51
+  },
+  "95450": {
+    "name": "Neuville-sur-Oise",
+    "day": 0.17,
+    "night": -0.49,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.95,
+    "cells": 169
+  },
+  "95452": {
+    "name": "Nointel",
+    "day": 0.11,
+    "night": -0.47,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.04,
+    "cells": 47
+  },
+  "95456": {
+    "name": "Noisy-sur-Oise",
+    "day": -0.15,
+    "night": -0.5,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.69,
+    "cells": 74
+  },
+  "95459": {
+    "name": "Nucourt",
+    "day": 0.11,
+    "night": -0.43,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.12,
+    "cells": 89
+  },
+  "95462": {
+    "name": "Omerville",
+    "day": -0.06,
+    "night": -0.38,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.3,
+    "cells": 170
+  },
+  "95476": {
+    "name": "Osny",
+    "day": 0.42,
+    "night": -0.32,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.9,
+    "vulnerability": 2.27,
+    "cells": 423
+  },
+  "95480": {
+    "name": "Parmain",
+    "day": -0.09,
+    "night": -0.49,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.4,
+    "vulnerability": 2.12,
+    "cells": 246
+  },
+  "95483": {
+    "name": "Le Perchay",
+    "day": 0.12,
+    "night": -0.48,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.4,
+    "cells": 50
+  },
+  "95487": {
+    "name": "Persan",
+    "day": 0.87,
+    "night": -0.46,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 1.0,
+    "vulnerability": 2.5,
+    "cells": 208
+  },
+  "95488": {
+    "name": "Pierrelaye",
+    "day": 0.58,
+    "night": -0.29,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.8,
+    "vulnerability": 2.77,
+    "cells": 261
+  },
+  "95489": {
+    "name": "Piscop",
+    "day": 0.24,
+    "night": -0.6,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.73,
+    "cells": 85
+  },
+  "95491": {
+    "name": "Le Plessis-Bouchard",
+    "day": 0.76,
+    "night": 0.68,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 3.74,
+    "cells": 121
+  },
+  "95492": {
+    "name": "Le Plessis-Gassot",
+    "day": 0.62,
+    "night": -0.76,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.24,
+    "cells": 50
+  },
+  "95493": {
+    "name": "Le Plessis-Luzarches",
+    "day": -0.29,
+    "night": -0.14,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.55,
+    "cells": 42
+  },
+  "95500": {
+    "name": "Pontoise",
+    "day": 0.82,
+    "night": 0.07,
+    "hot_day_pct": 0.5,
+    "hot_night_pct": 4.1,
+    "vulnerability": 3.15,
+    "cells": 369
+  },
+  "95504": {
+    "name": "Presles",
+    "day": -0.3,
+    "night": -0.29,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.04,
+    "cells": 248
+  },
+  "95509": {
+    "name": "Puiseux-en-France",
+    "day": 0.57,
+    "night": -0.76,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.7,
+    "cells": 63
+  },
+  "95510": {
+    "name": "Puiseux-Pontoise",
+    "day": 0.3,
+    "night": -0.39,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.2,
+    "cells": 80
+  },
+  "95523": {
+    "name": "La Roche-Guyon",
+    "day": -0.14,
+    "night": -0.62,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.68,
+    "cells": 93
+  },
+  "95527": {
+    "name": "Roissy-en-France",
+    "day": 1.08,
+    "night": 0.04,
+    "hot_day_pct": 0.5,
+    "hot_night_pct": 3.8,
+    "vulnerability": 2.85,
+    "cells": 425
+  },
+  "95529": {
+    "name": "Ronquerolles",
+    "day": 0.04,
+    "night": -0.82,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.57,
+    "cells": 113
+  },
+  "95535": {
+    "name": "Sagy",
+    "day": 0.03,
+    "night": -0.71,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.21,
+    "cells": 190
+  },
+  "95539": {
+    "name": "Saint-Brice-sous-Forêt",
+    "day": 0.93,
+    "night": -0.21,
+    "hot_day_pct": 0.4,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.67,
+    "cells": 255
+  },
+  "95541": {
+    "name": "Saint-Clair-sur-Epte",
+    "day": 0.1,
+    "night": -0.5,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.28,
+    "cells": 233
+  },
+  "95543": {
+    "name": "Saint-Cyr-en-Arthies",
+    "day": -0.13,
+    "night": -0.43,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.36,
+    "cells": 53
+  },
+  "95554": {
+    "name": "Saint-Gervais",
+    "day": 0.15,
+    "night": -0.66,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.0,
+    "cells": 186
+  },
+  "95555": {
+    "name": "Saint-Gratien",
+    "day": 1.11,
+    "night": 1.26,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 4.9,
+    "vulnerability": 4.43,
+    "cells": 163
+  },
+  "95563": {
+    "name": "Saint-Leu-la-Forêt",
+    "day": 0.77,
+    "night": 0.49,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.5,
+    "vulnerability": 3.56,
+    "cells": 189
+  },
+  "95566": {
+    "name": "Saint-Martin-du-Tertre",
+    "day": -0.26,
+    "night": -0.47,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.92,
+    "cells": 151
+  },
+  "95572": {
+    "name": "Saint-Ouen-l'Aumône",
+    "day": 0.72,
+    "night": -0.07,
+    "hot_day_pct": 0.9,
+    "hot_night_pct": 2.6,
+    "vulnerability": 2.72,
+    "cells": 545
+  },
+  "95574": {
+    "name": "Saint-Prix",
+    "day": 0.17,
+    "night": -0.1,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 1.7,
+    "vulnerability": 2.52,
+    "cells": 176
+  },
+  "95580": {
+    "name": "Saint-Witz",
+    "day": 0.39,
+    "night": -0.34,
+    "hot_day_pct": 3.6,
+    "hot_night_pct": 5.0,
+    "vulnerability": 2.28,
+    "cells": 140
+  },
+  "95582": {
+    "name": "Sannois",
+    "day": 0.81,
+    "night": 1.06,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 4.0,
+    "vulnerability": 4.13,
+    "cells": 252
+  },
+  "95584": {
+    "name": "Santeuil",
+    "day": -0.32,
+    "night": -0.46,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.79,
+    "cells": 78
+  },
+  "95585": {
+    "name": "Sarcelles",
+    "day": 0.9,
+    "night": -0.17,
+    "hot_day_pct": 0.7,
+    "hot_night_pct": 1.9,
+    "vulnerability": 3.16,
+    "cells": 411
+  },
+  "95592": {
+    "name": "Seraincourt",
+    "day": -0.04,
+    "night": -0.56,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.29,
+    "cells": 251
+  },
+  "95594": {
+    "name": "Seugy",
+    "day": -0.3,
+    "night": -0.46,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.2,
+    "cells": 56
+  },
+  "95598": {
+    "name": "Soisy-sous-Montmorency",
+    "day": 0.87,
+    "night": 0.96,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 3.2,
+    "vulnerability": 4.05,
+    "cells": 220
+  },
+  "95604": {
+    "name": "Survilliers",
+    "day": 0.37,
+    "night": -0.22,
+    "hot_day_pct": 2.4,
+    "hot_night_pct": 4.8,
+    "vulnerability": 2.82,
+    "cells": 83
+  },
+  "95607": {
+    "name": "Taverny",
+    "day": 0.67,
+    "night": 0.21,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 1.9,
+    "vulnerability": 3.06,
+    "cells": 371
+  },
+  "95610": {
+    "name": "Théméricourt",
+    "day": 0.23,
+    "night": -0.49,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.42,
+    "cells": 69
+  },
+  "95611": {
+    "name": "Theuville",
+    "day": -0.2,
+    "night": -0.48,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.15,
+    "cells": 61
+  },
+  "95612": {
+    "name": "Le Thillay",
+    "day": 0.83,
+    "night": -0.47,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 3.0,
+    "vulnerability": 2.69,
+    "cells": 132
+  },
+  "95625": {
+    "name": "Us",
+    "day": -0.08,
+    "night": -0.5,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.29,
+    "cells": 129
+  },
+  "95627": {
+    "name": "Vallangoujard",
+    "day": -0.44,
+    "night": -0.33,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.18,
+    "cells": 123
+  },
+  "95628": {
+    "name": "Valmondois",
+    "day": -0.53,
+    "night": -0.59,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.4,
+    "cells": 83
+  },
+  "95633": {
+    "name": "Vaudherland",
+    "day": 0.5,
+    "night": -0.5,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.0,
+    "cells": 8
+  },
+  "95637": {
+    "name": "Vauréal",
+    "day": 0.68,
+    "night": -0.4,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.5,
+    "vulnerability": 2.48,
+    "cells": 212
+  },
+  "95641": {
+    "name": "Vémars",
+    "day": 0.59,
+    "night": -0.34,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.54,
+    "cells": 127
+  },
+  "95651": {
+    "name": "Vétheuil",
+    "day": -0.21,
+    "night": -0.6,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.9,
+    "vulnerability": 1.87,
+    "cells": 117
+  },
+  "95652": {
+    "name": "Viarmes",
+    "day": -0.09,
+    "night": -0.4,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.28,
+    "cells": 283
+  },
+  "95656": {
+    "name": "Vienne-en-Arthies",
+    "day": -0.19,
+    "night": -0.6,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.15,
+    "cells": 120
+  },
+  "95658": {
+    "name": "Vigny",
+    "day": 0.24,
+    "night": -0.52,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.25,
+    "cells": 108
+  },
+  "95660": {
+    "name": "Villaines-sous-Bois",
+    "day": 0.76,
+    "night": -0.66,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.61,
+    "cells": 41
+  },
+  "95675": {
+    "name": "Villeron",
+    "day": 0.46,
+    "night": -0.35,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.65,
+    "cells": 46
+  },
+  "95676": {
+    "name": "Villers-en-Arthies",
+    "day": -0.26,
+    "night": -0.52,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.06,
+    "cells": 143
+  },
+  "95678": {
+    "name": "Villiers-Adam",
+    "day": -0.3,
+    "night": -0.57,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.08,
+    "cells": 136
+  },
+  "95680": {
+    "name": "Villiers-le-Bel",
+    "day": 0.74,
+    "night": -0.34,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.83,
+    "cells": 272
+  },
+  "95682": {
+    "name": "Villiers-le-Sec",
+    "day": 0.91,
+    "night": -0.77,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 2.41,
+    "cells": 22
+  },
+  "95690": {
+    "name": "Wy-dit-Joli-Village",
+    "day": -0.05,
+    "night": -0.52,
+    "hot_day_pct": 0.0,
+    "hot_night_pct": 0.0,
+    "vulnerability": 1.88,
+    "cells": 75
+  }
+}
