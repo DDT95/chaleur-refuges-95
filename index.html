@@ -13,14 +13,14 @@
   <a class="brand-logo-link" href="https://ddt95.github.io/atlas-territorial-95/#comprendre" aria-label="Retour à l’Atlas territorial"><img class="brand-logo" src="assets/prefet-val-doise.svg" alt="Préfet du Val-d’Oise"></a>
   <div class="title-block"><span class="eyebrow">CLIMAT · ADAPTATION · VAL-D’OISE</span><h1>Où la chaleur s’accumule-t-elle ?</h1><p>Îlots de chaleur, contrastes jour-nuit et refuges climatiques potentiels racontés par la carte</p></div>
   <button id="mobileLayers" class="mobile-layers" aria-controls="layerSidebar" aria-expanded="false">Données</button>
-  <button id="openDataTop" class="livebox"><span class="fresh-dot"></span><div><strong>Portrait départemental</strong><small>Chaleur & solutions de proximité</small></div></button>
+  <button id="openDataTop" class="livebox" type="button" aria-controls="synthesisDialog"><span class="fresh-dot"></span><div><strong>Données & évolutions</strong><small>Synthèse départementale</small></div></button>
 </header>
 <main class="workspace">
   <aside id="layerSidebar" class="sidebar" aria-label="Choix des lectures">
     <div class="sidebar-intro"><div><span class="eyebrow">LECTURE CARTOGRAPHIQUE</span><h2>Repérer le chaud, trouver le frais</h2><p>Comparez l’aléa de jour et de nuit, puis affichez les lieux susceptibles d’offrir une pause fraîche.</p></div></div>
     <label class="search-box"><span>Rechercher une commune</span><div><input id="searchInput" type="search" placeholder="Ex. Argenteuil" autocomplete="off"><button id="searchButton" aria-label="Rechercher">→</button></div></label>
     <div id="searchResults" class="search-results" hidden></div>
-    <div class="quick-actions"><button id="resetView">Recentrer</button><button id="openData">Portrait du 95</button></div>
+    <div class="quick-actions"><button id="resetView">Recentrer</button><button id="openData" type="button" aria-controls="synthesisDialog">Données & évolutions</button></div>
     <div class="layer-group"><span>ÎLOTS DE CHALEUR</span><div class="layer-cards">
       <button class="layer-card active" data-heat="day"><i class="layer-swatch heat-day"></i><span><b>Aléa de jour</b><small>Accumulation pendant la journée</small></span><i class="layer-switch"></i></button>
       <button class="layer-card" data-heat="night"><i class="layer-swatch heat-night"></i><span><b>Aléa de nuit</b><small>Capacité à se rafraîchir</small></span><i class="layer-switch"></i></button>
@@ -47,5 +47,5 @@
   <h3>Comment lire la carte</h3><ul><li>Basculez entre le jour et la nuit pour voir où le refroidissement nocturne est plus difficile.</li><li>Cliquez sur un îlot coloré pour lire ses aléas, sa vulnérabilité et sa morphologie.</li><li>Activez ou masquez chaque famille de refuge.</li><li>Recherchez une commune pour ouvrir son portrait territorial.</li></ul>
   <div class="source-cards"><div class="source-card"><h3>Données et méthode</h3><p>Millésimes, traitements, licences et limites sont documentés dans le dépôt.</p><a href="SOURCES.md" target="_blank">Consulter les sources ↗</a></div><div class="source-card"><h3>Code source</h3><p>Application et données versionnées, librement consultables.</p><a href="https://github.com/DDT95/chaleur-refuges-95" target="_blank" rel="noopener">Voir le dépôt ↗</a></div></div>
 </div></dialog>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script><script src="js/app.js?v=7"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script><script src="js/app.js?v=8"></script>
 </body></html>
