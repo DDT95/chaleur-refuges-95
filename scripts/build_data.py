@@ -12,7 +12,8 @@ import urllib.request
 from collections import defaultdict
 from pathlib import Path
 
-from shapely.geometry import Point, shape
+from shapely import force_2d
+from shapely.geometry import Point, mapping, shape
 from shapely.strtree import STRtree
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -20,6 +21,14 @@ DATA = ROOT / "data"
 ICU_DATASET = "ilots-de-chaleur-urbains-icu-classification-des-imu-en-zone-climatique-locale-lc"
 ICU_BASE = f"https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/{ICU_DATASET}/exports/csv"
 BBOX_POLYGON = "POLYGON((1.60 48.88,2.60 48.88,2.60 49.25,1.60 49.25,1.60 48.88))"
+
+
+def rounded_coordinates(value):
+    if isinstance(value, (list, tuple)):
+        if value and isinstance(value[0], (int, float)):
+            return [round(float(coordinate), 5) for coordinate in value[:2]]
+        return [rounded_coordinates(item) for item in value]
+    return value
 
 
 def fetch(url: str, data: bytes | None = None, timeout: int = 180) -> bytes:
@@ -114,6 +123,36 @@ def build_heat(department, communes):
         }
     (DATA / "heat_points.json").write_text(json.dumps(points, ensure_ascii=False, separators=(",", ":")))
     (DATA / "commune_profiles.json").write_text(json.dumps(profiles, ensure_ascii=False, indent=2))
+
+    polygon_query = urllib.parse.urlencode({
+        "where": f"within(geo_point_2d, geom'{BBOX_POLYGON}')",
+        "select": "geo_shape,alea_j_cl,alea_n_cl",
+        "limit": -1,
+    })
+    polygon_url = ICU_BASE.replace("/exports/csv", "/exports/geojson") + f"?{polygon_query}"
+    polygon_source = json.loads(fetch(polygon_url, timeout=300))
+    polygon_features = []
+    for feature in polygon_source.get("features", []):
+        if not feature.get("geometry"):
+            continue
+        geometry = force_2d(shape(feature["geometry"]))
+        if geometry.is_empty or not department.covers(geometry.representative_point()):
+            continue
+        geometry = geometry.simplify(0.000025, preserve_topology=True)
+        properties = feature.get("properties", {})
+        geometry_mapping = mapping(geometry)
+        geometry_mapping["coordinates"] = rounded_coordinates(geometry_mapping["coordinates"])
+        polygon_features.append({
+            "type": "Feature",
+            "properties": {
+                "day": properties.get("alea_j_cl", -1),
+                "night": properties.get("alea_n_cl", -1),
+            },
+            "geometry": geometry_mapping,
+        })
+    (DATA / "heat_polygons.geojson").write_text(json.dumps({
+        "type": "FeatureCollection", "features": polygon_features,
+    }, ensure_ascii=False, separators=(",", ":")))
 
 
 def build_refuges(department):

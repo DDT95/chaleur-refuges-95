@@ -14,6 +14,7 @@ Version préparée le **16 août 2026**.
 - extraction des centroïdes d’îlots situés dans le Val-d’Oise ;
 - agrégation sur une grille d’environ 350 à 400 mètres pour fluidifier la heatmap ;
 - deux intensités distinctes construites avec les classes d’aléa de jour et de nuit ;
+- affichage des géométries officielles des îlots morphologiques urbains à partir du zoom de quartier ;
 - profils communaux calculés par appartenance du centroïde à la commune ;
 - ressources OpenStreetMap filtrées par emprise départementale et réparties en trois familles ;
 - exclusion de tout équipement déclaré `access=private` ou `access=no` ; une piscine doit être nommée et comporter un signal d’accès public, clients/adhérents ou un opérateur identifiable.

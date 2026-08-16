@@ -38,7 +38,7 @@ Focused checks covered the header/logo lockup, sidebar cards and switches, map l
 
 1. P1: the initial heat layer called an unsupported `bringToBack` method, stopping markers, commune geometry and interaction binding. Fix: removed the unsupported call. Post-fix evidence: clean browser load, populated markers, working search/detail drawer and no console errors.
 2. P2: the previous six-card Atlas layout could not accommodate the seventh entry as requested. Fix: changed the desktop grid to four columns, reduced visual header height and card density. Post-fix evidence: `atlas-understand-desktop.png` shows four cards on the first row and three on the second.
-3. P1: at neighbourhood zoom, the fixed-radius heatmap separated into isolated halos. Fix: the radius and blur now adapt after each zoom, preserving a continuous analytical surface. Post-fix evidence: `implementation-zoom.png` shows a smooth surface after four zoom levels, with no console errors.
+3. P1: at neighbourhood zoom, a point heatmap produced isolated halos, then visible kernel artefacts when its radius was enlarged. Fix: the smoothed heatmap is now limited to the departmental scale; from neighbourhood zoom onward the map renders the 28,105 official morphoclimatic island geometries. Post-fix evidence: `implementation-zoom.png` shows clean, contiguous polygons after four zoom levels, with no console errors.
 4. P1: generic OSM swimming-pool geometries included residential pools. Fix: private/forbidden access is excluded globally and pools now require a name plus an explicit public, customer/member or operator signal. The resource set fell from 2,370 to 927, including one documented pool.
 
 ## Follow-up polish
