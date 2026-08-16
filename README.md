@@ -4,7 +4,7 @@ Décryptage cartographique de l’Atlas territorial de la DDT 95 consacré à l�
 
 ## Fonctionnement
 
-- heatmap jour / nuit issue des classes d’aléa de l’Institut Paris Region ;
+- carte de chaleur jour / nuit en six classes, construite avec les îlots officiels de l’Institut Paris Region ;
 - recherche et portrait des 183 communes ;
 - filtres pour les parcs et jardins, bibliothèques, points d’eau, piscines et bases de loisirs ;
 - portrait départemental et présentation explicite des limites ;

@@ -35,7 +35,7 @@
     <div class="sidebar-footer"><span class="fresh-dot"></span><div><strong>Référentiels publics croisés</strong><small>Institut Paris Region · OpenStreetMap · IGN</small></div></div>
   </aside>
   <section class="map-shell" aria-label="Carte interactive"><div id="map"></div>
-    <div id="mapLegend" class="heat-legend"><strong>Aléa chaleur de jour</strong><div class="ramp"></div><div class="ramp-labels"><span>Îlot de fraîcheur</span><span>Très chaud</span></div><p>Lecture relative des zones climatiques locales.</p></div>
+    <div id="mapLegend" class="heat-legend"><strong>Aléa chaleur de jour</strong><p class="legend-intro">Influence thermique potentielle</p><div class="legend-classes" aria-label="Classes de chaleur"><span><i style="--class-color:#2c7bb6"></i>Îlot de fraîcheur</span><span><i style="--class-color:#74add1"></i>Faible</span><span><i style="--class-color:#c7e9d4"></i>Modéré</span><span><i style="--class-color:#fee08b"></i>Marqué</span><span><i style="--class-color:#f46d43"></i>Fort</span><span><i style="--class-color:#b2182b"></i>Très fort</span></div><p class="legend-note">Source : Institut Paris Region · IMU/LCZ</p></div>
     <div class="map-note"><span class="pulse"></span><span id="mapStatus">Chargement des données…</span></div>
   </section>
   <aside id="detailPanel" class="detail-panel" aria-live="polite"><button id="closeDetail" class="close-btn" aria-label="Fermer">×</button><div id="detailContent"></div></aside>
@@ -47,5 +47,5 @@
   <h3>Comment lire la carte</h3><ul><li>Basculez entre le jour et la nuit pour voir où le refroidissement nocturne est plus difficile.</li><li>Activez ou masquez chaque famille de refuge.</li><li>Cliquez sur une commune ou un refuge pour ouvrir son portrait.</li></ul>
   <div class="source-cards"><div class="source-card"><h3>Données et méthode</h3><p>Millésimes, traitements, licences et limites sont documentés dans le dépôt.</p><a href="SOURCES.md" target="_blank">Consulter les sources ↗</a></div><div class="source-card"><h3>Code source</h3><p>Application et données versionnées, librement consultables.</p><a href="https://github.com/DDT95/chaleur-refuges-95" target="_blank" rel="noopener">Voir le dépôt ↗</a></div></div>
 </div></dialog>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script><script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script><script src="js/app.js?v=4"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script><script src="js/app.js?v=5"></script>
 </body></html>

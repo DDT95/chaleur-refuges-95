@@ -12,9 +12,9 @@ Version préparée le **16 août 2026**.
 ## Traitements
 
 - extraction des centroïdes d’îlots situés dans le Val-d’Oise ;
-- agrégation sur une grille d’environ 350 à 400 mètres pour fluidifier la heatmap ;
-- deux intensités distinctes construites avec les classes d’aléa de jour et de nuit ;
-- affichage des géométries officielles des îlots morphologiques urbains à partir du zoom de quartier ;
+- deux lectures distinctes construites avec les classes d’aléa de jour et de nuit ;
+- affichage des 28 105 géométries officielles des îlots morphologiques urbains à toutes les échelles ;
+- palette divergente en six classes, stable pendant le zoom : fraîcheur, faible, modéré, marqué, fort et très fort ;
 - profils communaux calculés par appartenance du centroïde à la commune ;
 - ressources OpenStreetMap filtrées par emprise départementale et réparties en trois familles ;
 - exclusion de tout équipement déclaré `access=private` ou `access=no` ; une piscine doit être nommée et comporter un signal d’accès public, clients/adhérents ou un opérateur identifiable.
