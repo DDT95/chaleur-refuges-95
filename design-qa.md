@@ -27,11 +27,11 @@ Focused checks covered the header/logo lockup, sidebar cards and switches, map l
 
 - heatmap day/night switch: passed;
 - click on a morphoclimatic island and open its day/night hazard, vulnerability and morphology detail: passed;
-- heatmap masking: present;
+- “Voir uniquement les refuges” mode: passed; it hides the heat layer, closes any stale heat detail and automatically restores all three refuge families;
 - three refuge filters: passed on initial render;
 - commune search and Pontoise detail drawer: passed;
 - departmental synthesis and methodology dialogs: present and wired;
-- map loads 5,938 cells and 927 potential resources after the public-access filter;
+- map loads 28,105 clickable morphoclimatic islands and 927 potential resources after the public-access filter;
 - browser console errors on clean load: none;
 - Atlas build and seven-card grid: passed.
 
@@ -41,6 +41,7 @@ Focused checks covered the header/logo lockup, sidebar cards and switches, map l
 2. P2: the previous six-card Atlas layout could not accommodate the seventh entry as requested. Fix: changed the desktop grid to four columns, reduced visual header height and card density. Post-fix evidence: `atlas-understand-desktop.png` shows four cards on the first row and three on the second.
 3. P1: point-based heat rendering produced isolated halos and kernel artefacts, while the first polygon pass lacked an explanatory legend. Fix: point heat rendering was removed entirely. Every scale now uses the 28,105 official morphoclimatic islands with a stable six-class blue-to-red palette and a labelled legend. Post-fix evidence: `implementation-desktop.png` and `implementation-zoom.png` show the same graphic language before and after four zoom levels, with no console errors.
 4. P1: generic OSM swimming-pool geometries included residential pools. Fix: private/forbidden access is excluded globally and pools now require a name plus an explicit public, customer/member or operator signal. The resource set fell from 2,370 to 927, including one documented pool.
+5. P1: the former “Masquer la chaleur” action could leave a visually empty map when all refuge families had already been disabled. Fix: the control is now an explicit “Voir uniquement les refuges” mode that restores all refuge families, closes the heat-detail drawer and prevents disabling the final visible family. Post-fix evidence: `implementation-refuges-only.png`.
 
 ## Follow-up polish
 
