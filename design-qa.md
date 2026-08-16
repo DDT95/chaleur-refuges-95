@@ -26,6 +26,7 @@ Focused checks covered the header/logo lockup, sidebar cards and switches, map l
 ## Interaction and console checks
 
 - heatmap day/night switch: passed;
+- click on a morphoclimatic island and open its day/night hazard, vulnerability and morphology detail: passed;
 - heatmap masking: present;
 - three refuge filters: passed on initial render;
 - commune search and Pontoise detail drawer: passed;

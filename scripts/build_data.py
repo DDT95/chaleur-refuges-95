@@ -126,7 +126,7 @@ def build_heat(department, communes):
 
     polygon_query = urllib.parse.urlencode({
         "where": f"within(geo_point_2d, geom'{BBOX_POLYGON}')",
-        "select": "geo_shape,alea_j_cl,alea_n_cl",
+        "select": "geo_shape,type_lcz,alea_j_cl,alea_n_cl,vulnj_note,vulnn_note,permeable,bati",
         "limit": -1,
     })
     polygon_url = ICU_BASE.replace("/exports/csv", "/exports/geojson") + f"?{polygon_query}"
@@ -147,6 +147,11 @@ def build_heat(department, communes):
             "properties": {
                 "day": properties.get("alea_j_cl", -1),
                 "night": properties.get("alea_n_cl", -1),
+                "lcz": properties.get("type_lcz"),
+                "vulnerability_day": properties.get("vulnj_note"),
+                "vulnerability_night": properties.get("vulnn_note"),
+                "permeable": properties.get("permeable"),
+                "built": properties.get("bati"),
             },
             "geometry": geometry_mapping,
         })
