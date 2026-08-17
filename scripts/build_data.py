@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import csv
+import gzip
 import io
 import json
 import math
@@ -15,12 +16,33 @@ from pathlib import Path
 from shapely import force_2d
 from shapely.geometry import Point, mapping, shape
 from shapely.strtree import STRtree
+from shapely.validation import make_valid
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 ICU_DATASET = "ilots-de-chaleur-urbains-icu-classification-des-imu-en-zone-climatique-locale-lc"
 ICU_BASE = f"https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/{ICU_DATASET}/exports/csv"
 BBOX_POLYGON = "POLYGON((1.60 48.88,2.60 48.88,2.60 49.25,1.60 49.25,1.60 48.88))"
+
+# Données climatologiques de base horaires, Météo-France (data.gouv.fr, organisation
+# certifiée « Météo-France »). Fichiers officiels par département et par décennie.
+HOURLY_CLIMATE_FILES = [
+    "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/HOR/H_95_previous-2020-2024.csv.gz",
+    "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/HOR/H_95_latest-2025-2026.csv.gz",
+]
+# Heures UTC retenues pour approcher la nuit (22h-05h) et l'après-midi (12h-18h) en heure d'été.
+NIGHT_HOURS_UTC = {20, 21, 22, 23, 0, 1, 2, 3}
+DAY_HOURS_UTC = {10, 11, 12, 13, 14, 15, 16}
+STATION_BUFFER_DEGREES = 0.018  # rayon d'environ 2 km autour de chaque station
+# Le nom Météo-France (NOM_USUEL) est tronqué à 8 caractères ; on restitue le nom lisible.
+STATION_DISPLAY_NAMES = {
+    "95078001": "Pontoise-Aéro",
+    "95088001": "Le Bourget",
+    "95492001": "Le Plessis-Gassot",
+    "95527001": "Roissy",
+    "95580001": "Saint-Witz",
+    "95690001": "Wy-dit-Joli-Village",
+}
 
 
 def rounded_coordinates(value):
@@ -221,8 +243,85 @@ out center tags;
     (DATA / "refuges.json").write_text(json.dumps(refuges, ensure_ascii=False, indent=2))
 
 
+def build_station_temperatures():
+    """Écarts de température réellement mesurés en juillet, station par station.
+
+    Inspiré d'une méthode de comparaison station urbaine / station rurale publiée sur
+    LinkedIn (Jack Suddaby, données horaires Météo-France croisées avec les zones
+    climatiques locales). Les six stations officielles du Val-d'Oise sont peu
+    nombreuses et souvent situées sur des emprises aéroportuaires : le résultat
+    complète la carte d'aléa modélisée par une mesure réelle, sans prétendre à une
+    densité suffisante pour cartographier l'îlot de chaleur commune par commune.
+    """
+    heat_polygons = json.loads((DATA / "heat_polygons.geojson").read_text())
+    polygon_geoms = [make_valid(shape(feature["geometry"])) for feature in heat_polygons["features"]]
+    polygon_props = [feature["properties"] for feature in heat_polygons["features"]]
+    polygon_tree = STRtree(polygon_geoms)
+
+    stations = {}
+    night = defaultdict(list)
+    day = defaultdict(list)
+    years = set()
+
+    for url in HOURLY_CLIMATE_FILES:
+        raw = gzip.decompress(fetch(url, timeout=300)).decode("utf-8")
+        for row in csv.DictReader(io.StringIO(raw), delimiter=";"):
+            timestamp = row.get("AAAAMMJJHH", "")
+            if len(timestamp) != 10 or timestamp[4:6] != "07":
+                continue
+            temperature, quality = row.get("T"), row.get("QT")
+            if not temperature or quality != "1":
+                continue
+            code = row["NUM_POSTE"]
+            stations[code] = {
+                "id": code,
+                "name": STATION_DISPLAY_NAMES.get(code, row["NOM_USUEL"].title()),
+                "lat": float(row["LAT"]),
+                "lon": float(row["LON"]),
+                "alt": float(row["ALTI"]),
+            }
+            hour, value = int(timestamp[8:10]), float(temperature)
+            years.add(timestamp[:4])
+            if hour in NIGHT_HOURS_UTC:
+                night[code].append(value)
+            elif hour in DAY_HOURS_UTC:
+                day[code].append(value)
+
+    for code, station in stations.items():
+        point = Point(station["lon"], station["lat"])
+        buffer_zone = point.buffer(STATION_BUFFER_DEGREES)
+        area_total, built_weighted = 0.0, 0.0
+        for index in polygon_tree.query(buffer_zone):
+            geometry = polygon_geoms[int(index)]
+            intersection = geometry.intersection(buffer_zone)
+            if intersection.is_empty:
+                continue
+            built = polygon_props[int(index)].get("built") or 0
+            area_total += intersection.area
+            built_weighted += intersection.area * built
+        station["night_mean"] = round(sum(night[code]) / len(night[code]), 2)
+        station["day_mean"] = round(sum(day[code]) / len(day[code]), 2)
+        station["samples"] = len(night[code])
+        station["built_2km_pct"] = round(built_weighted / area_total, 1) if area_total else None
+
+    ranked = sorted(stations.values(), key=lambda item: item["night_mean"])
+    rural_ref, urban_ref = ranked[0], ranked[-1]
+    payload = {
+        "period_label": f"Juillet {min(years)}-{max(years)}",
+        "night_hours_utc": sorted(NIGHT_HOURS_UTC),
+        "day_hours_utc": sorted(DAY_HOURS_UTC),
+        "rural_ref": rural_ref["id"],
+        "urban_ref": urban_ref["id"],
+        "delta_night": round(urban_ref["night_mean"] - rural_ref["night_mean"], 2),
+        "delta_day": round(urban_ref["day_mean"] - rural_ref["day_mean"], 2),
+        "stations": ranked,
+    }
+    (DATA / "station_temperatures.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2))
+
+
 if __name__ == "__main__":
     department_geometry, commune_items = load_boundaries()
     build_heat(department_geometry, commune_items)
     build_refuges(department_geometry)
+    build_station_temperatures()
     print("Données construites dans", DATA)

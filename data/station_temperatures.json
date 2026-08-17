@@ -1,0 +1,94 @@
+{
+  "period_label": "Juillet 2020-2026",
+  "night_hours_utc": [
+    0,
+    1,
+    2,
+    3,
+    20,
+    21,
+    22,
+    23
+  ],
+  "day_hours_utc": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "rural_ref": "95690001",
+  "urban_ref": "95088001",
+  "delta_night": 3.13,
+  "delta_day": 0.7,
+  "stations": [
+    {
+      "id": "95690001",
+      "name": "Wy-dit-Joli-Village",
+      "lat": 49.108167,
+      "lon": 1.830667,
+      "alt": 126.0,
+      "night_mean": 15.75,
+      "day_mean": 23.85,
+      "samples": 1736,
+      "built_2km_pct": 0.4
+    },
+    {
+      "id": "95078001",
+      "name": "Pontoise-Aéro",
+      "lat": 49.0905,
+      "lon": 2.027667,
+      "alt": 87.0,
+      "night_mean": 16.36,
+      "day_mean": 24.11,
+      "samples": 1736,
+      "built_2km_pct": 1.7
+    },
+    {
+      "id": "95492001",
+      "name": "Le Plessis-Gassot",
+      "lat": 49.040333,
+      "lon": 2.406667,
+      "alt": 108.0,
+      "night_mean": 17.63,
+      "day_mean": 24.53,
+      "samples": 1736,
+      "built_2km_pct": 1.1
+    },
+    {
+      "id": "95580001",
+      "name": "Saint-Witz",
+      "lat": 49.085667,
+      "lon": 2.550667,
+      "alt": 141.0,
+      "night_mean": 17.97,
+      "day_mean": 23.95,
+      "samples": 1736,
+      "built_2km_pct": 4.7
+    },
+    {
+      "id": "95527001",
+      "name": "Roissy",
+      "lat": 49.015167,
+      "lon": 2.534333,
+      "alt": 108.0,
+      "night_mean": 18.69,
+      "day_mean": 24.28,
+      "samples": 1736,
+      "built_2km_pct": 3.8
+    },
+    {
+      "id": "95088001",
+      "name": "Le Bourget",
+      "lat": 48.967333,
+      "lon": 2.427667,
+      "alt": 49.0,
+      "night_mean": 18.88,
+      "day_mean": 24.55,
+      "samples": 1736,
+      "built_2km_pct": 8.3
+    }
+  ]
+}

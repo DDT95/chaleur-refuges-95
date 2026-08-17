@@ -6,7 +6,7 @@
 <title>Chaleur · refuges climatiques · Val-d’Oise · DDT 95</title>
 <link rel="preconnect" href="https://tile.openstreetmap.org">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-<link rel="stylesheet" href="css/style.css?v=1">
+<link rel="stylesheet" href="css/style.css?v=2">
 </head>
 <body>
 <header class="topbar">
@@ -31,8 +31,11 @@
       <button class="layer-card active" data-refuge="indoor"><i class="layer-swatch refuge-indoor"></i><span><b>Bibliothèques</b><small>Lieux publics intérieurs</small></span><i class="layer-switch"></i></button>
       <button class="layer-card active" data-refuge="water"><i class="layer-swatch refuge-water"></i><span><b>Eau & baignade</b><small>Fontaines, piscines et bases de loisirs</small></span><i class="layer-switch"></i></button>
     </div></div>
+    <div class="layer-group"><span>MESURES RÉELLES</span><div class="layer-cards">
+      <button class="layer-card active" data-stations="toggle"><i class="layer-swatch stations-swatch"></i><span><b>Stations Météo-France</b><small>Températures observées, moyennes de juillet</small></span><i class="layer-switch"></i></button>
+    </div></div>
     <button id="openMethod" class="sources-inline">Sources, méthode et précautions</button>
-    <div class="sidebar-footer"><span class="fresh-dot"></span><div><strong>Référentiels publics croisés</strong><small>Institut Paris Region · OpenStreetMap · IGN</small></div></div>
+    <div class="sidebar-footer"><span class="fresh-dot"></span><div><strong>Référentiels publics croisés</strong><small>Institut Paris Region · OpenStreetMap · IGN · Météo-France</small></div></div>
   </aside>
   <section class="map-shell" aria-label="Carte interactive"><div id="map"></div>
     <div id="mapLegend" class="heat-legend"><strong>Aléa chaleur de jour</strong><p class="legend-intro">Influence thermique potentielle</p><div class="legend-classes" aria-label="Classes de chaleur"><span><i style="--class-color:#2c7bb6"></i>Îlot de fraîcheur</span><span><i style="--class-color:#74add1"></i>Faible</span><span><i style="--class-color:#c7e9d4"></i>Modéré</span><span><i style="--class-color:#fee08b"></i>Marqué</span><span><i style="--class-color:#f46d43"></i>Fort</span><span><i style="--class-color:#b2182b"></i>Très fort</span></div><p class="legend-note">Source : Institut Paris Region · IMU/LCZ</p></div>
@@ -44,8 +47,9 @@
 <dialog id="methodDialog" class="dialog"><button class="dialog-close" data-close="methodDialog" aria-label="Fermer">×</button><div class="dialog-header"><span class="eyebrow">TRAÇABILITÉ</span><h2>Comprendre la carte</h2><p>Une lecture d’aide au repérage, pas une mesure de température en temps réel.</p></div><div class="dialog-body">
   <h3>Îlots de chaleur</h3><p>La heatmap synthétise les classes d’aléa de l’Institut Paris Region à partir des zones climatiques locales et de la morphologie des îlots. Elle décrit un potentiel d’accumulation de chaleur, distinct d’une température observée.</p>
   <h3>Refuges climatiques potentiels</h3><p>Parcs, jardins, bibliothèques, points d’eau, piscines et bases de loisirs proviennent d’OpenStreetMap. Ils sont affichés comme <strong>ressources potentielles</strong> : ouverture, accessibilité et confort thermique doivent être vérifiés localement avant tout usage opérationnel.</p>
+  <h3>Mesures réelles de température</h3><p>Les marqueurs thermomètre affichent les moyennes de juillet (2020-2026) mesurées heure par heure par les six stations officielles Météo-France du Val-d’Oise, en comparant la moyenne nocturne (22h-5h) à la moyenne d’après-midi (12h-18h). Cette lecture complète l’aléa modélisé par une valeur réellement observée. Le réseau reste clairsemé et plusieurs stations sont installées en bordure de plateforme aéroportuaire (Le Bourget, Roissy) : l’écart mesuré donne un ordre de grandeur départemental de l’îlot de chaleur, pas une mesure représentative de chaque quartier.</p>
   <h3>Comment lire la carte</h3><ul><li>Basculez entre le jour et la nuit pour voir où le refroidissement nocturne est plus difficile.</li><li>Cliquez sur un îlot coloré pour lire ses aléas, sa vulnérabilité et sa morphologie.</li><li>Activez ou masquez chaque famille de refuge.</li><li>Recherchez une commune pour ouvrir son portrait territorial.</li></ul>
   <div class="source-cards"><div class="source-card"><h3>Données et méthode</h3><p>Millésimes, traitements, licences et limites sont documentés dans le dépôt.</p><a href="SOURCES.md" target="_blank">Consulter les sources ↗</a></div><div class="source-card"><h3>Code source</h3><p>Application et données versionnées, librement consultables.</p><a href="https://github.com/DDT95/chaleur-refuges-95" target="_blank" rel="noopener">Voir le dépôt ↗</a></div></div>
 </div></dialog>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script><script src="js/app.js?v=8"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script><script src="js/app.js?v=9"></script>
 </body></html>
